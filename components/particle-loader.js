@@ -14,8 +14,8 @@ export const ParticleContainer = forwardRef(({children}, ref) => (
             className="particle"
             m="auto"
             alignItems='center'
-            w={[280, 480, 640]}
-            h={[280, 480, 640]}
+            w={[0, 480, 640]}
+            h={[0, 480, 640]}
             position="relative"
         >
             
