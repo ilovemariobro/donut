@@ -9,21 +9,7 @@ export const ParticleSpin = () => {
 
 export const ParticleContainer = forwardRef(({children}, ref) => (
 
-        <Box
-            ref={ref}
-            className="particle"
-            m="auto"
-            alignItems='center'
-            w={[0, 480, 640]}
-            h={[0, 480, 640]}
-            position="relative"
-        >
-            
-            <br></br>
 
-            {children}
-
-        </Box>
 
 ))
 
