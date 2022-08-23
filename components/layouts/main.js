@@ -8,10 +8,10 @@ const Main = ({children, router}) => {
 
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                <title> aryankumar.io </title>
+                <title> donut </title>
             </Head>
             
-            <Container maxW="container.md" pt={14}>
+            <Container maxW="container.md">
                 {children}
             </Container>
 
