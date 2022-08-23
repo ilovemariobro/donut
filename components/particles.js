@@ -135,7 +135,7 @@ const Particles = () => {
             sphere.rotation.z += 0.01;
           
             particle.rotation.y = -.1 * elapsedTime
-            if mousedown {
+            if (mousedown) {
                 if (mouseX > 0) {
                     particle.rotation.x = -mouseY * (elapsedTime * 0.00008)
                 }
